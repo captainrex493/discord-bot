@@ -16,4 +16,4 @@ class MyClient(discord.Client):
             for em in emojis:
                 await message.add_reaction(em)
 client = MyClient()
-client.run('You\'re token here')
+client.run('Your token here')
